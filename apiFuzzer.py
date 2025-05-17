@@ -1,5 +1,5 @@
 import requests
 import sys
 
-res = requests.get(url=f"http://10.10.11.161/api")
+res = requests.get(url=f"https://catfact.ninja/fact")
 print (res)
